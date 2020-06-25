@@ -129,6 +129,8 @@ table {
     animation: text 3s 1;
     -webkit-animation: text 3s 1;
     -ms-animation: text 3s 1;
+    -o-animation: text 3s 1;
+    -moz-animation: text 3s 1;
   }
   .text2{
     font-size: 20px;
@@ -172,6 +174,36 @@ table {
     30%{
       color: #D9C2FF;
       letter-spacing: 25px;
+      margin-bottom: -40px;
+    }
+    85%{
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+    }
+  }
+  -o-@keyframes text {
+    0%{
+      color: #AB78FC;
+      margin-bottom: -40px;
+    }
+    30%{
+      color: #D9C2FF;
+      letter-spacing: 12px;
+      margin-bottom: -40px;
+    }
+    85%{
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+    }
+  }
+  -moz-@keyframes text {
+    0%{
+      color: #AB78FC;
+      margin-bottom: -40px;
+    }
+    30%{
+      color: #D9C2FF;
+      letter-spacing: 12px;
       margin-bottom: -40px;
     }
     85%{
@@ -282,8 +314,44 @@ table {
     margin: 0 auto;
     color: #000;
     animation: fadein 4s;
+    -webkit-animation: fadein 4s;
+    -ms-animation: fadein 4s;
+    -o-animation: fadein 4s;
+    -moz-animation: fadein 4s;
   }
   @keyframes fadein {
+    from {
+      opacity:0;
+    }
+    to {
+      opacity:1;
+    }
+  }
+  -webkit-@keyframes fadein {
+    from {
+      opacity:0;
+    }
+    to {
+      opacity:1;
+    }
+  }
+  -ms-@keyframes fadein {
+    from {
+      opacity:0;
+    }
+    to {
+      opacity:1;
+    }
+  }
+  -o-@keyframes fadein {
+    from {
+      opacity:0;
+    }
+    to {
+      opacity:1;
+    }
+  }
+  -moz-@keyframes fadein {
     from {
       opacity:0;
     }
@@ -604,6 +672,36 @@ table {
     }
   }
   -ms-@keyframes text {
+    0%{
+      color: #AB78FC;
+      margin-bottom: -40px;
+    }
+    30%{
+      color: #D9C2FF;
+      letter-spacing: 25px;
+      margin-bottom: -40px;
+    }
+    85%{
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+    }
+  }
+  -o-@keyframes text {
+    0%{
+      color: #AB78FC;
+      margin-bottom: -40px;
+    }
+    30%{
+      color: #D9C2FF;
+      letter-spacing: 25px;
+      margin-bottom: -40px;
+    }
+    85%{
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+    }
+  }
+  -moz-@keyframes text {
     0%{
       color: #AB78FC;
       margin-bottom: -40px;
