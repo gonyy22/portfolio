@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gothic+A1:wght@200&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="./index.js"></script>
+  <title>Jiwon Park Portfolio</title>
+</head>
+<body>
+  <header class="header_wrap">
+    <nav>
+      <ol class="menu_wrap">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </nav>
+  </header>
+  <section class="main_header_wrap">
+    <div class="main_header_inner_wrap">
+      <span class="text1">/* JIWON PARK */</span>
+      <span class="text2">PORTFOLIO</span>
+    </div>
+    <div class="animate-area-pointer"></div>
+    <!-- <div class="animated_title">
+      <div class="text_top">
+        <h1>
+          <p>신입 웹 퍼블리셔</p>
+          <p>박지원의 포트폴리오 입니다 :)</p>
+        </h1>
+      </div>
+    </div> -->
+  </section>
+  <section id="about" class="about_wrap">
+    <div class="about_inner_wrap">
+      <h2>About</h2>
+      <div class="profile_container">
+        <p class="title">" 어디서나 'PLUS' 가 되는 사람 "</p>
+        <div class="item_info_detail">
+          <div class="profile">
+            <span class="item_info_detail_title">P R O F I L E</span>
+            <dl class="item_info_detail_txt">
+              <dt><img src="./img/check.png" alt="" class="check_img"><span>박지원 / Jiwon Park</span></dt>
+              <dd><span>1994. 05. 02</span></dd>
+              <dd><span>010-2112-7769</span></dd>
+              <dd><span>gonyy22@gmail.com</span></dd>
+              <dd><span>github.com/gonyy22</span></dd>
+            </dl>
+            <dl class="item_info_detail_txt">
+              <dt><img src="./img/check.png" alt="" class="check_img"><span>MOTTO</span></dt>
+              <dd><span>"자신이 재밌어하고 좋아하는 일을 해야 최고의 능률을 낼 수 있다." 제가 퍼블리셔가 되고싶은 이유입니다. 그저 회사의 업무가 아닌 제 모든 역량을 발휘해 스스로와 회사를 함께 성장시키는 퍼블리셔가 되겠습니다. </span></dd>
+            </dl>
+          </div>
+          <div class="university">
+            <span class="item_info_detail_title">U N I V E R S I T Y</span>
+            <dl class="item_info_detail_txt">
+              <dt><img src="./img/check.png" alt="" class="check_img"><span>상명대학교 서울캠퍼스</span></dt>
+              <dd><span>2013.03 컴퓨터과학과 입학</span></dd>
+              <dd><span>2018.02 학사 졸업</span></dd>
+            </dl>
+            <dl class="item_info_detail_txt">
+              <dt><img src="./img/check.png" alt="" class="check_img"><span>졸업 프로젝트</span></dt>
+              <dd><span>TensorFlow를 이용한 인공지능 체스게임</span></dd>
+            </dl>
+            <dl class="item_info_detail_txt">
+              <dt><img src="./img/check.png" alt="" class="check_img"><span>정보처리기사 자격증 취득</span></dt>
+              <dd><span>2018.08</span></dd>
+            </dl>
+          </div>
+          <div class="education">
+            <span class="item_info_detail_title">E D U C A T I O N</span>
+            <dl class="item_info_detail_txt">
+              <dt><img src="./img/check.png" alt="" class="check_img"><span>부스트코스 웹 UI개발 심화과정</span></dt>
+              <dd><span>HTML, CSS, 웹 접근성, 크로스브라우징, 반응형 웹을 단계별로 학습하여 실무에서 사용하는 다양한 UI 개발을 이수하였습니다.</span></dd>
+            </dl>
+            <dl class="item_info_detail_txt">
+              <dt><img src="./img/check.png" alt="" class="check_img"><span>부스트코스 웹 프로그래밍 프론트엔드 심화과정</span></dt>
+              <dd><span>웹 프론트엔드 직무에 대한 javascript, 웹의 동작, DOM API활용, Ajax, Web Animation, WEB UI, clean code, UI Component module, JavaScript Regular expression, form 데이터 보내기, file upload에 대해 이수하였습니다.</span></dd>
+            </dl>
+            <dl class="item_info_detail_txt">
+              <dt><img src="./img/check.png" alt="" class="check_img"><span>SBS 아카데미 UI&UX Design</span></dt>
+              <dd><span>Photoshop, Illustrator, UI, UX, GUI, 2D 그래픽 방식의 종류와 개념 설명, UI 요소의 묘사법, 레이아웃과 그리드의 이해, 디자인 트렌드와 스타일에 대해 학습하고 이수하였습니다.</span></dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills_wrap">
+    <div class="skills_inner_wrap">
+      <h2>Skills</h2>
+      <div class="skills_inner_detail_wrap">
+        <div class="item">
+          <img src="./img/icon-01.png" alt="HTML icon">
+          <div class="item_title">
+            <span class="item_desc_title">HTML</span><span>(웹표준, 웹접근성 etc..)</span>
+          </div>
+          <div class="item_progressbar">
+            <div class="progressBar">
+              <div class="progressBar_inner html"><span>90%</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./img/icon-02.png" alt="CSS icon">
+          <div class="item_title">
+            <span class="item_desc_title">CSS</span><span>(mediaquery, animation, flexbox etc..)</span>
+          </div>
+          <div class="item_progressbar">
+            <div class="progressBar">
+              <div class="progressBar_inner css"><span>90%</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./img/icon-03.png" alt="Javascript icon">
+          <div class="item_title">
+            <span class="item_desc_title">Javascript</span><span>(DOM API, 반복문, 조건문, ajax etc..)</span>
+          </div>
+          <div class="item_progressbar">
+            <div class="progressBar">
+              <div class="progressBar_inner js"><span>70%</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./img/icon-04.png" alt="Photoshop icon">
+          <div class="item_title">
+            <span class="item_desc_title">Adobe Photoshop</span><span>(펜툴 및 다양한 툴 사용 etc..)</span>
+          </div>
+          <div class="item_progressbar">
+            <div class="progressBar">
+              <div class="progressBar_inner photoshop"><span>90%</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./img/icon-05.png" alt="Illustrator icon">
+          <div class="item_title">
+            <span class="item_desc_title">Adobe Illustrator</span><span>(기본적인 툴 사용)</span>
+          </div>
+          <div class="item_progressbar">
+            <div class="progressBar">
+              <div class="progressBar_inner illustrator"><span>60%</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./img/icon-06.png" alt="Git icon">
+          <div class="item_title">
+            <span class="item_desc_title">Git</span>
+          </div>
+          <div class="item_progressbar">
+            <div class="progressBar">
+              <div class="progressBar_inner git"><span>70%</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./img/icon-07.png" alt="Excel icon">
+          <div class="item_title">
+            <span class="item_desc_title">MS Excel</span><span>(함수 활용 / 자격증보유)</span>
+          </div>
+          <div class="item_progressbar">
+            <div class="progressBar">
+              <div class="progressBar_inner excel"><span>90%</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./img/icon-08.png" alt="Powerpoint icon">
+          <div class="item_title">
+            <span class="item_desc_title">MS Powerpoint</span><span>(그래프 활용 / 자격증보유)</span>
+          </div>
+          <div class="item_progressbar">
+            <div class="progressBar">
+              <div class="progressBar_inner powerpoint"><span>90%</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./img/icon-09.png" alt="Word icon">
+          <div class="item_title">
+            <span class="item_desc_title">MS Word</span><span>(표 활용 / 자격증보유)</span>
+          </div>
+          <div class="item_progressbar">
+            <div class="progressBar">
+              <div class="progressBar_inner word"><span>90%</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio_wrap">
+    <div class="portfolio_inner_wrap">
+      <h2>Portfolio</h2>
+      <div class="portfolio_container">
+        <div class="portfolio_detail_wrap">
+          <img src="./img/mockup_twosome.png" alt="투썸플레이스 미리보기 이미지">
+          <div class="item">
+            <span class="title">Twosome Place:<br>Responsive Web</span>
+            <div class="item_desc">
+              <span class="desc_title">HTML5, CSS3, JAVASCRIPT / 참여도 100%</span>
+              <span>2020년 투썸플레이스 '봄날은온다' 이벤트 모작 웹사이트입니다.</span>
+            </div>
+            <div class="btn">
+              <div class="btn_eff"></div>
+              <a href="https://gonyy22.github.io/twosomeplace/">Homepage</a>
+            </div>
+            <div class="btn">
+              <div class="btn_eff"></div>
+              <a href="https://github.com/gonyy22/twosomeplace">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio_detail_wrap">
+            <img src="./img/mockup_project_c.png" alt="프로젝트C 미리보기 이미지">
+            <div class="item">
+              <span class="title">Foodwith_01:<br>Responsive Web</span>
+              <div class="item_desc">
+                <span class="desc_title">HTML5, CSS3 / 참여도 100%</span>
+                <span>부스트코스 웹 UI 개발 심화과정에서 만든 프로젝트입니다.</span>
+              </div>
+              <div class="btn">
+                <div class="btn_eff"></div>
+                <a href="https://gonyy22.github.io/boostcourse_projectC/">Homepage</a>
+              </div>
+              <div class="btn">
+                <div class="btn_eff"></div>
+                <a href="https://github.com/gonyy22/boostcourse_projectC">View Code</a>
+              </div>
+            </div>
+        </div>
+        <div class="portfolio_detail_wrap">
+          <img src="./img/mockup_project_b.png" alt="프로젝트B 미리보기 이미지">
+          <div class="item">
+            <span class="title">Foodwith_02:<br>Desktop Web</span>
+            <div class="item_desc">
+              <span class="desc_title">HTML5, CSS3, JAVASCRIPT / 참여도 100%</span>
+              <span>부스트코스 웹 UI 개발 심화과정에서 만든 프로젝트입니다.</span>
+            </div>
+            <div class="btn">
+              <div class="btn_eff"></div>
+              <a href="https://gonyy22.github.io/boostcourse_projectB/">Homepage</a>
+            </div>
+            <div class="btn">
+              <div class="btn_eff"></div>
+              <a href="https://github.com/gonyy22/boostcourse_projectB">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio_detail_wrap">
+            <img src="./img/mockup_project_a.png" alt="프로젝트A 미리보기 이미지">
+            <div class="item">
+              <span class="title">Basic Layout:<br>Desktop Web</span>
+              <div class="item_desc">
+                <span class="desc_title">HTML5, CSS3 / 참여도 100%</span>
+                <span>Table, Form, List와 같은 기본 마크업을 짜보았습니다.</span>
+              </div>
+              <div class="btn">
+                <div class="btn_eff"></div>
+                <a href="https://gonyy22.github.io/boostcourse_projectA-2/">Homepage</a>
+              </div>
+              <div class="btn">
+                <div class="btn_eff"></div>
+                <a href="https://github.com/gonyy22/boostcourse_projectA-2">View Code</a>
+              </div>
+            </div>
+        </div>
+        <div class="portfolio_detail_wrap">
+          <img src="./img/mockup_portfolio.png" alt="포트폴리오사이트 미리보기 이미지">
+          <div class="item">
+            <span class="title">Portfolio Web:<br>Responsive Web</span>
+            <div class="item_desc">
+              <span class="desc_title">HTML5, CSS3 / 참여도 100%</span>
+              <span>신입 웹 퍼블리셔 박지원의 반응형 포트폴리오 웹사이트입니다.</span>
+            </div>
+            <div class="btn">
+              <div class="btn_eff"></div>
+              <a href="https://gonyy22.github.io/twosomeplace/">Homepage</a>
+            </div>
+            <div class="btn">
+              <div class="btn_eff"></div>
+              <a href="https://github.com/gonyy22/twosomeplace">View Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="design_wrap">
+      <div class="figure_wrap">
+        <figure>
+          <img src="./img/design-01.png" onclick="onClick(this)" alt="" class="w3-hover-opacity">
+          <figcaption>반려식물 웹 디자인<br>(참여도 100% / Photoshop 사용)</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/design-02.jpg" onclick="onClick(this)" alt="" class="w3-hover-opacity">
+          <figcaption>모바일게임 GUI 디자인<br>(참여도 100% / Photoshop 사용)</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/design-03.jpg" onclick="onClick(this)" alt="" class="w3-hover-opacity">
+          <figcaption>PC게임 GUI 디자인<br>(참여도 100% / Photoshop 사용)</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/design-04.jpg" onclick="onClick(this)" alt="" class="w3-hover-opacity">
+          <figcaption>넥슨작은책방 이벤트 배너<br>(참여도 100% / Photoshop, Illustrator 사용)</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/design-05.jpg" onclick="onClick(this)" alt="" class="w3-hover-opacity">
+          <figcaption>넥슨 Wish Planet7 In Mogolia 사진/영상전 배너<br>(참여도 100% / Illustrator 사용)</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom">
+      <img id="img01" style="width:100%">
+    </div>
+  </div>
+  <footer id="contact" class="contact_wrap">
+    <div class="contact_inner_wrap">
+      <!-- <h2>Contact</h2> -->
+      <span class="title">I hope to meet you soon</span>
+      <div class="contact_container">
+        <div class="phone">
+          <img src="./img/contact-01.png" alt="">
+          <span>Phone</span>
+          <span class="title_desc">+82 10 2112 7769</span>
+        </div>
+        <div class="email">
+          <img src="./img/contact-02.png" alt="">
+          <span>E-mail</span>
+          <a href="mailto:gonyy22@gmail.com" class="title_desc">gonyy22@gmail.com</a>
+        </div>
+        <div class="location">
+          <img src="./img/contact-03.png" alt="">
+          <span>Location</span>
+          <span>서울특별시 서초구</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="return_top_wrap">
+    <a href="#"><span class="blind">TOP</span><img src="./img/top_.png" alt="위로가기 버튼"></a>
+  </div>
+</body>
+</html>
